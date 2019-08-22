@@ -1317,7 +1317,6 @@ class Pubnub
     {
         $errorMsg = 'Error on line ' . $error->getLine() . ' in ' . $error->getFile() . ": " . $error->getMessage();
         trigger_error($errorMsg, E_USER_WARNING);
-        sleep(1);
     }
 
     /**
